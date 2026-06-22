@@ -1,0 +1,79 @@
+# ========================================
+# MESSAGES CONFIGURATION SECTION
+# ========================================
+# These are the messages used throughout the plugin for various actions and events.
+# You can modify these to fit the tone and style of your server.
+
+messages:
+
+  # ----------------------------------------
+  # Reloading Messages
+  # ----------------------------------------
+  # The message shown when the plugin starts reloading its configuration.
+  reload-start: "&7Reloading the plugin configuration, please wait..."
+
+  # The message displayed when the plugin configuration reloads successfully.
+  reload-success: "&aThe plugin configuration has been successfully reloaded!"
+
+  # ----------------------------------------
+  # Permission Error Messages
+  # ----------------------------------------
+  # This message will be shown if a player tries to run a command without proper permissions.
+  no-permission: "&cYou don't have permission to use this command!"
+
+  # ----------------------------------------
+  # Skin Restoration Messages
+  # ----------------------------------------
+  # This message tells the player that their skin has been successfully restored
+  skin-restored: "&aYour skin has been successfully restored."
+
+  # This message is displayed when the plugin fails to restore the player's skin.
+  skin-not-restored: "&cYour skin could not be restored. Please try again later."
+
+  # ----------------------------------------
+  # Custom Skin Messages
+  # ----------------------------------------
+  # Displayed when a player successfully sets their custom skin.
+  skin-set: "&aYour custom skin has been set successfully."
+
+  # If the player tries to set an invalid skin URL, this message will be displayed.
+  invalid-skin-url: "&cThe skin URL is invalid. Please make sure it is a valid image URL."
+
+  # Displayed when a player removes their custom skin.
+  skin-removed: "&aYour custom skin has been removed."
+
+  # ----------------------------------------
+  # Command Execution Errors
+  # ----------------------------------------
+  # This message appears when a non-player (e.g., the console) tries to execute a command.
+  command-error-player: "&cThis command can only be executed by a player."
+
+  # ----------------------------------------
+  # Skin Menu Messages
+  # ----------------------------------------
+  # The title of the inventory menu that displays available skins.
+  skin-menu-title: "&6Skin Menu"
+
+  # This message is shown as the item name for each player's skin in the menu.
+  # The {player} placeholder will be replaced with the actual player's name.
+  skin-menu-item-name: "&f{player}'s Skin"
+
+  # Displayed when the player successfully changes their skin to another player's skin from the menu.
+  skin-changed: "&aYou have changed your skin to {player}'s skin."
+
+  # If the URL provided for a skin is invalid, this message will be displayed.
+  skin-invalid-url: "&cThe skin URL is invalid, please check it."
+
+  # ----------------------------------------
+  # Plugin Update Check Messages
+  # ----------------------------------------
+  # When a new plugin update is available, this message will notify the player.
+  # {0} will be replaced with the new version number, and {1} with the update download link.
+  update: "&eThere is a new version of RestoreTheSkin! Version {0}. Download it here: {1}"
+
+  # Displayed if the plugin is already up to date.
+  no-update: "&aNo new updates are available. Your plugin is up to date."
+
+# ========================================
+# END OF CONFIGURATION
+# ========================================

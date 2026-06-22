@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.135.0.146
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1782117489309
+  login: 1782117561508
+money: '0'
+last-account-name: zetreaa
+logoutlocation:
+  world: a9e8238c-e4e0-4255-9ca1-f7276be07c81
+  world-name: world
+  x: 44.63641884168587
+  y: 63.0
+  z: 448.90118079751215
+  yaw: 120.18798828125
+  pitch: -3.4147729873657227
